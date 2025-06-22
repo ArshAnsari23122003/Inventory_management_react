@@ -36,16 +36,16 @@ git clone https://github.com/ArshAnsari23122003/Inventory_management_react.git
 cd Inventory_management_react
 
 # Frontend
-cd client
+cd frontend
 npm install
 
 # Backend
-cd ../server
+cd ../backend
 npm install
 # Start frontend
-cd client
+cd frontend
 npm start
 
 # Start backend
-cd ../server
+cd ../backend
 node index.js
