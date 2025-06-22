@@ -1,0 +1,44 @@
+@import "tailwindcss";
+/* ====== Button Styles ====== */
+.btn-blue {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition;
+}
+.btn-red {
+  @apply bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition;
+}
+.btn-green {
+  @apply bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition;
+}
+.btn-gray {
+  @apply bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition;
+}
+
+/* ====== Input Fields ====== */
+input, select, textarea {
+  @apply border border-gray-300 rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* ====== Table Styling ====== */
+table {
+  @apply w-full border-collapse text-sm;
+}
+th, td {
+  @apply border p-2 text-center;
+}
+thead {
+  @apply bg-gray-200;
+}
+
+/* ====== Modal Background ====== */
+.modal-bg {
+  @apply fixed inset-0 bg-black/50 flex items-center justify-center;
+}
+
+/* ====== Scrollbar (Optional) ====== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9ca3af;
+  border-radius: 10px;
+}
