@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://inventory-management-react-xn9c.onrender.com/api", // Replace with your backend URL
+  baseURL: "https://inventory-management-react-xn9c.onrender.com", // Replace with your backend URL
 });
 
 // Attach JWT token if available
